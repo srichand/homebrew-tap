@@ -1,6 +1,6 @@
 cask "upnext" do
-  version "1.0.0"
-  sha256 "f339eb56848ca3ff2d29a5c498e18122fc85e218a11d66c46f964fe30675ec3a"
+  version "1.0.1"
+  sha256 "5a28b8340a62581eaea5ee74d23e3749d65444b6f544346b73f3f37282189698"
 
   url "https://github.com/srichand/UpNext/releases/download/v#{version}/UpNext-#{version}.zip"
   name "UpNext"
@@ -8,7 +8,7 @@ cask "upnext" do
   homepage "https://github.com/srichand/UpNext"
 
   auto_updates true
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   app "UpNext.app"
 
