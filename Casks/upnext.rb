@@ -1,6 +1,6 @@
 cask "upnext" do
   version "1.0.0"
-  sha256 "bb1bc402c6d36431d39b64b35693438f52fd2f30d05a05c049e7f0cdb943beb8"
+  sha256 "f339eb56848ca3ff2d29a5c498e18122fc85e218a11d66c46f964fe30675ec3a"
 
   url "https://github.com/srichand/UpNext/releases/download/v#{version}/UpNext-#{version}.zip"
   name "UpNext"
